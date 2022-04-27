@@ -1,10 +1,4 @@
-CommonChild <- function(slovo1, slovo2) { 
-
-# funkce má dva vstupní argumenty, oba textové podoby a nalézá nejdelšího spoleèného potomka dvou vstupních øetìzcù
-# na výstupu funkce je opìt textový øetìzec, a to takový, který vznikne delecí 0 a více znakù z øetìzce vstupního
-  
-
-#poèáteèní úpravy    
+CommonChild <- function(slovo1, slovo2) {    
 slovo1 <- strsplit(slovo1[1], "")
 slovo2 <- strsplit(slovo2[1], "")
 
