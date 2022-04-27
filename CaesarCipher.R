@@ -1,13 +1,4 @@
 CaesarCipher <- function(retezec, posunuti){
-
-# vstupem funkce jsou dva argumenty, první z nich je textový øetìzec a druhý je èíslo
-# èíslo udává, o kolik písmen v abecedì se posune každé z písmen v textovém øetìzci
-# výstupem je opìt (zašifrovaný) textový øetìzec
-# funkce je rozdìlená na èást ENKRYPCE a èást DEKRYPCE
-# ENKRYPCE slouží k zašifrování, DEKRYPCE k odšifrování
-# chce-li uživatel rozšifrovat slovo, musí zadat záporné èíslo o které byl textový øetìzec posunut
-
-
 #ENKRYPCE
 if (posunuti > 0){
 abeceda <- c('a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k','l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v','w', 'x', 'y', 'z', 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k','l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v','w', 'x', 'y', 'z')
