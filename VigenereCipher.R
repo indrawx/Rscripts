@@ -1,6 +1,3 @@
-# Vigenérova šifra má dva vstupy, oba textového charakteru. Prvním vstupem je text, který chceme kódovat.
-# Druhým vstupem je text, který slouží jako klíè ke kodóvaní.
-
 Vigenere <- function(text, klic){
 text <- tolower(text)
 klic <- tolower(klic)
