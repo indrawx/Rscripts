@@ -1,8 +1,4 @@
 MergeSort <- function(vstupni_vektor) {
-  # vstupem funkce je neseøazený vektor èísel
-  # funkce vektor seøadí a výstupem je seøazený vektor vzestupnì
-  # promìnné "vek" oznaèují vektory èísel, se kterými funkce pracuje
-  # poc = poèítadlo
   
 delka_vek <- length(vstupni_vektor)
 if (delka_vek < 2) return(vstupni_vektor)
