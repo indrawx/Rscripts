@@ -1,7 +1,3 @@
-# vstupem funkce je neseøazený vektor èísel, výstupem vektor seøazený
-# funkce rozdìlí vstupní vektor na pøibližnì dvì stejné èásti (èísla vìtší a menší - než zvolená hodnota (pivot))
-# èásti se pak postupnì (rekurzivnì) øadí a zmenšují
-
 QuickSort <- function(vstupni_vektor) {
   
   leva_strana <- c()
