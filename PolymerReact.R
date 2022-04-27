@@ -1,9 +1,4 @@
 PolymerReact <- function(pol) {
-
-  # vstupem funkce je øetìzec znakù
-  # funkce provede všechny možné reakce v øetìzci (velké a malé písmeno vedle sebe) a vrací stabilnìjší kratší øetìzec znakù
-  # vstup a výstup je datového typu character
-  
   delka <- nchar(pol)
   vektor2 <- strsplit(pol, '')
   vektor <- c()
